@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".skill">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programming Languages Known:"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. C++"
+            android:textSize="17sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. C"
+            android:textSize="17sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. JAVA"
+            android:textSize="17sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. XML"
+            android:textSize="17sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I started my journey towards becoming a developer with C++ which i learnt during my school years in 11th and 12th standard. After getting enrolled in B.Tech course in GTBIT i started learning Java form Udacity, short after which i got Scholarship for Android Development Nanodegree from Udacity under Google re-skill India program. Currently I am leaning C as a part of my academic subject along with which i keep learning new things in Android to improve my skill set"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textColor="#000"/>
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

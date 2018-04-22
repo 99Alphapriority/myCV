@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".academic_details"
+    android:orientation="vertical">
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of Institution"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/institute"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year of Passing"
+            android:layout_toRightOf="@id/institute"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/passing"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/passing"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class 10th"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_below="@id/institute"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tenth"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Pinnacle School"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_below="@id/institute"
+            android:layout_toRightOf="@id/tenth"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/sname"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/passing"
+            android:layout_toRightOf="@id/sname"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/ypass"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7 CGPA"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_below="@id/passing"
+            android:layout_toRightOf="@id/ypass"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="110dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class 12th"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_below="@id/tenth"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/twelth"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GHPS, Vasant Vihar"
+            android:textSize="15sp"
+            android:layout_toRightOf="@id/twelth"
+            android:layout_below="@id/tenth"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:textColor="#000"
+            android:id="@+id/sname2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tenth"
+            android:layout_toRightOf="@id/sname2"
+            android:textColor="#000"
+            android:layout_marginLeft="105dp"
+            android:id="@+id/ypass2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70%"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tenth"
+            android:layout_toRightOf="@id/ypass2"
+            android:layout_marginLeft="125dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Tech"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/twelth"
+            android:id="@+id/sname3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GTBIT"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/twelth"
+            android:layout_toRightOf="@id/sname3"
+            android:layout_marginLeft="115dp"
+            android:id="@+id/btech"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2021"
+            android:layout_toRightOf="@id/btech"
+            android:layout_below="@id/twelth"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="160dp"
+            android:id="@+id/ypass3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/twelth"
+            android:layout_toRightOf="@id/ypass3"
+            android:layout_marginLeft="130dp"
+            />
+
+
+
+    </RelativeLayout>
+</HorizontalScrollView>
+
+
+
+
+
+
+</LinearLayout>

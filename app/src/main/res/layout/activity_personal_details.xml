@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personal_details"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/age"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sex:"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/age"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/sex"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/sex"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/addr"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cell:"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/address"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/cell"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail:"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/cell"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/mail"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/name"
+        android:layout_marginLeft="34dp"
+        android:text="Prajneet Singh Ruprai"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@id/age"
+        android:text="18"
+        android:layout_marginLeft="50dp"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/sex"
+        android:layout_below="@+id/age"
+        android:text="Male"
+        android:textColor="#000"
+        android:layout_marginLeft="53dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sex"
+        android:layout_toRightOf="@id/addr"
+        android:layout_marginLeft="10dp"
+        android:text="5-C Category-1, D.D.A. Flats,Sheikh Sarai-1, New Delhi-110017"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cell"
+        android:layout_below="@id/address"
+        android:text="+91 9870169948"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cell"
+        android:layout_toRightOf="@id/mail"
+        android:text="prajneets@gmail.com"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"/>
+
+
+
+</RelativeLayout>
